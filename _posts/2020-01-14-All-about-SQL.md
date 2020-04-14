@@ -1,6 +1,3 @@
----
-layout: default
----
 # SQL
 
  - The DUAL table (1x1) is a special table in Oracle which can be leveraged as sequence generator or selecting pseudo fields such as SYSDATE. 
