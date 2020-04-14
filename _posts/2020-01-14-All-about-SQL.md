@@ -1,5 +1,7 @@
 # SQL
 
+# SQL
+
  - The DUAL table (1x1) is a special table in Oracle which can be leveraged as sequence generator or selecting pseudo fields such as SYSDATE. 
  - MySQL has a 1x1 dual table with dummy as field name
  - SQL Server does not have dual table.
@@ -17,5 +19,13 @@
  - If no join condition is specified. a CARTESIAN join (CROSS JOIN) will be performed
  - We can declare composite data type in SQL (Custom data type)
  - Use Conversion functions (TO_CHAR, TO_NUMBER) to typecast various data types.
- - 
+ - LPAD will trim characters if the input string length is more than the length specified in LPAD function
+ - Arithmetics on NULL will result in NULL 
+ - COALESCE() returns first non null value
+ - Integrity constraint are used to prevent entry of invalid data in table
+ - [Constraints in Database](https://binaryterms.com/integrity-constraints-in-dbms.html)
+ - A Primary key is always indexed i.e. whenever a primary key is created, a unique index is created by db system
+ - To Drop a table having referential integrity constraint, use CASCADE
+ - ON DELETE CASCADE: If a record in a parent table is deleted, then a record in child table will be deleted automatically
+ - BEFORE trigger --> Constraint --> AFTER Trigger
  - 
